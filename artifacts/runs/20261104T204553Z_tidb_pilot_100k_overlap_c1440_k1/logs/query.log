@@ -1,0 +1,16 @@
+{
+  "engine": "tidb_htap_pinned",
+  "target_table": "pilot100k_tidb_overlap_c1440_k1_20261104T204553Z",
+  "clients": 1,
+  "duration_seconds": 75.0,
+  "interval_seconds": 1.0,
+  "total_successes": 76,
+  "total_errors": 0,
+  "per_client": [
+    {
+      "client_id": 1,
+      "successes": 76,
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "engine": "TiDB HTAP pinned v8.5.2",
+  "compression": "1:288",
+  "c": 288,
+  "k": 4,
+  "input_rows": 100000,
+  "target_table": "pilot100k_tidb_c288_k4_20261104T222643Z",
+  "query_success": 1564,
+  "query_error": 0,
+  "median_latency_ms": 112.4,
+  "min_latency_ms": 29.453,
+  "max_latency_ms": 528.687,
+  "replay_elapsed_seconds": 300.16,
+  "replay_lag_seconds": 0.163,
+  "frontier": "2025-01-01 23:59:59",
+  "overlap_start_after_first_chunk": true,
+  "target_profile": {
+    "row_count": 100000,
+    "distinct_trip_ids": 100000,
+    "min_event": "2025-01-01 00:00:00",
+    "max_event": "2025-01-01 23:59:59"
+  },
+  "replica_count": 1,
+  "replica_available": 1,
+  "replica_progress": 1.0,
+  "status": "PASS"
+}

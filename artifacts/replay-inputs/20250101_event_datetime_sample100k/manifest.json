@@ -1,0 +1,76 @@
+{
+  "source_input": "/home/aryasatya/skripsi/artifacts/replay-inputs/20250101_event_datetime",
+  "output_input": "/home/aryasatya/skripsi/artifacts/replay-inputs/20250101_event_datetime_sample100k",
+  "sampling_method": "systematic selection from validated 2025-01-01 input; index=floor(i*source_count/target_count)",
+  "source_row_count": 663563,
+  "row_count": 100000,
+  "distinct_trip_ids": 100000,
+  "chunk_size": 10000,
+  "chunk_count": 10,
+  "ordering": [
+    "event_datetime ASC",
+    "trip_id ASC"
+  ],
+  "min_event_datetime": "2025-01-01 00:00:00",
+  "max_event_datetime": "2025-01-01 23:59:59",
+  "first_key": [
+    "2025-01-01 00:00:00",
+    1000006687
+  ],
+  "last_key": [
+    "2025-01-01 23:59:59",
+    1000651407
+  ],
+  "chunks": [
+    {
+      "file": "events-00000.tsv",
+      "rows": 10000,
+      "sha256": "0a4a2e215c75c752499ed71e648ee86eb0c69ee7cb33f5850dcd6d49b4286fd1"
+    },
+    {
+      "file": "events-00001.tsv",
+      "rows": 10000,
+      "sha256": "41827df79119ea8a1e1575bf2a55f31eef24ff58bdcbb1cdd408cbbbfbf1f2b8"
+    },
+    {
+      "file": "events-00002.tsv",
+      "rows": 10000,
+      "sha256": "da01a76a5394451b0710a790863660451842308fbfbb7c99c3e43aa3f16df0ab"
+    },
+    {
+      "file": "events-00003.tsv",
+      "rows": 10000,
+      "sha256": "731927918dc311a8c8de0c706318dd9c2466b13d042b9718846c2b8c5f8de4b6"
+    },
+    {
+      "file": "events-00004.tsv",
+      "rows": 10000,
+      "sha256": "40284287f4ed7e4a6254f75d5cd7b1acddcbba9944eedd813deceda446ab8766"
+    },
+    {
+      "file": "events-00005.tsv",
+      "rows": 10000,
+      "sha256": "b86dd36f83f2a58b256ee804a6b8d80c5595067f9cdbc234c19b6ae82251ff76"
+    },
+    {
+      "file": "events-00006.tsv",
+      "rows": 10000,
+      "sha256": "1bd68d6db5a70b9c7ceb4d4df900306bceaeaf4a9c3282c4d7cecfba61a21d53"
+    },
+    {
+      "file": "events-00007.tsv",
+      "rows": 10000,
+      "sha256": "b351393ffbea5042c358ba2fdf98b36d78278c01db2b506818491b1c5cdb386f"
+    },
+    {
+      "file": "events-00008.tsv",
+      "rows": 10000,
+      "sha256": "30441dda1c42384d843d49665d56e6b38563cc2a0d608b695537298c877482f8"
+    },
+    {
+      "file": "events-00009.tsv",
+      "rows": 10000,
+      "sha256": "b46ee81eb4373c61b57fba539b4250efb6aec19c7055b283e68151a49451c2df"
+    }
+  ]
+}

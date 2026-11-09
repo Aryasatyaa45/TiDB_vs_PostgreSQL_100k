@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "database": "htap_experiment",
+  "target_table": "pilot100k_tidb_c60_k1_20261104T224023Z",
+  "compression": 60,
+  "chunk_count": 10,
+  "rows": 100000,
+  "elapsed_seconds": 1440.141,
+  "frontier": "2025-01-01 23:59:59",
+  "replay_lag_seconds": 0.157
+}

@@ -1,0 +1,2 @@
+engine	compression	c	k	input_rows	target_table	query_success	query_error	median_latency_ms	min_latency_ms	max_latency_ms	replay_elapsed_seconds	replay_lag_seconds	frontier	overlap_start_after_first_chunk	target_profile	replica_count	replica_available	replica_progress	status
+TiDB HTAP pinned v8.5.2	1:288	288	4	100000	pilot100k_tidb_c288_k4_20261104T222643Z	1564	0	112.4	29.453	528.687	300.16	0.163	2025-01-01 23:59:59	True	{'row_count': 100000, 'distinct_trip_ids': 100000, 'min_event': '2025-01-01 00:00:00', 'max_event': '2025-01-01 23:59:59'}	1	1	1.0	PASS

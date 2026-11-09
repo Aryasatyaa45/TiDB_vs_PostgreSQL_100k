@@ -1,0 +1,41 @@
+nohup: ignoring input
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[1/10] events-00000.tsv PASS | chunk_rows=10000 | committed_rows=10000 | frontier=2025-01-01 01:09:12 | elapsed=3.039s | lag=0.156s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[2/10] events-00001.tsv PASS | chunk_rows=10000 | committed_rows=20000 | frontier=2025-01-01 02:14:49 | elapsed=5.786s | lag=0.169s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[3/10] events-00002.tsv PASS | chunk_rows=10000 | committed_rows=30000 | frontier=2025-01-01 03:28:05 | elapsed=8.865s | lag=0.195s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[4/10] events-00003.tsv PASS | chunk_rows=10000 | committed_rows=40000 | frontier=2025-01-01 05:24:48 | elapsed=13.686s | lag=0.153s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[5/10] events-00004.tsv PASS | chunk_rows=10000 | committed_rows=50000 | frontier=2025-01-01 09:30:08 | elapsed=23.946s | lag=0.191s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[6/10] events-00005.tsv PASS | chunk_rows=10000 | committed_rows=60000 | frontier=2025-01-01 13:16:33 | elapsed=33.345s | lag=0.156s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[7/10] events-00006.tsv PASS | chunk_rows=10000 | committed_rows=70000 | frontier=2025-01-01 15:55:01 | elapsed=39.946s | lag=0.154s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[8/10] events-00007.tsv PASS | chunk_rows=10000 | committed_rows=80000 | frontier=2025-01-01 18:22:56 | elapsed=46.125s | lag=0.169s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[9/10] events-00008.tsv PASS | chunk_rows=10000 | committed_rows=90000 | frontier=2025-01-01 20:55:27 | elapsed=52.466s | lag=0.156s
+/tmp/replay_existing_tidb_100k.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "committed_at_utc": datetime.utcnow().isoformat() + "Z",
+[10/10] events-00009.tsv PASS | chunk_rows=10000 | committed_rows=100000 | frontier=2025-01-01 23:59:59 | elapsed=60.196s | lag=0.197s
+{
+  "status": "success",
+  "database": "htap_experiment",
+  "target_table": "pilot100k_tidb_overlap_c1440_k1_20261104T204553Z",
+  "compression": 1440,
+  "chunk_count": 10,
+  "rows": 100000,
+  "elapsed_seconds": 60.196,
+  "frontier": "2025-01-01 23:59:59"
+}

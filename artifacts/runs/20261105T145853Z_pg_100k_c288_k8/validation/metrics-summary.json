@@ -1,0 +1,25 @@
+{
+  "engine": "PostgreSQL 16.15",
+  "compression": "1:288",
+  "c": 288,
+  "k": 8,
+  "input_rows": 100000,
+  "target_table": "pilot100k_pg_c288_k8_20261105t145853z",
+  "query_success": 3128,
+  "query_error": 0,
+  "median_latency_ms": 484.833,
+  "min_latency_ms": 189.898,
+  "max_latency_ms": 677.362,
+  "replay_elapsed_seconds": 300.196,
+  "replay_lag_seconds": 0.199,
+  "frontier": "2025-01-01 23:59:59",
+  "overlap_seconds": 285.662,
+  "overlap_queries": 2288,
+  "target_profile": {
+    "row_count": 100000,
+    "distinct_trip_ids": 100000,
+    "min_event": "2025-01-01 00:00:00",
+    "max_event": "2025-01-01 23:59:59"
+  },
+  "status": "PASS"
+}

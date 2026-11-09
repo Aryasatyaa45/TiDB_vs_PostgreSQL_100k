@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "engine": "postgresql_16",
+  "target_table": "pilot100k_pg_c1440_k8_20261105t144404z",
+  "compression": 1440,
+  "chunk_count": 10,
+  "rows": 100000,
+  "elapsed_seconds": 60.524,
+  "frontier": "2025-01-01 23:59:59",
+  "replay_lag_seconds": 0.525
+}

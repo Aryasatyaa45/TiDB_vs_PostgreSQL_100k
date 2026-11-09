@@ -1,0 +1,23 @@
+{
+  "engine": "TiDB HTAP pinned v8.5.2",
+  "compression": "1:1440",
+  "c": 1440,
+  "concurrency": 1,
+  "input_rows": 100000,
+  "target_table": "pilot100k_tidb_overlap_c1440_k1_20261104T204553Z",
+  "query_success": 76,
+  "query_error": 0,
+  "median_latency_ms": 61.151,
+  "min_latency_ms": 38.854,
+  "max_latency_ms": 121.737,
+  "replay_elapsed_seconds": 60.196,
+  "replay_lag_seconds": 0.197,
+  "frontier": "2025-01-01 23:59:59",
+  "overlap_seconds": 31.197,
+  "overlap_queries": 32,
+  "replica_count": 1,
+  "replica_available": 1,
+  "replica_progress": 1,
+  "status": "PASS",
+  "status_basis": "Replay lengkap, target 100000 baris valid, 76 query sukses tanpa error, overlap terbukti, dan EXPLAIN ANALYZE menunjukkan mpp[tiflash]/tiflash_scan."
+}

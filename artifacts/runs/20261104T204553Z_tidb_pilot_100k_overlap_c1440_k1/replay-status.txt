@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "database": "htap_experiment",
+  "target_table": "pilot100k_tidb_overlap_c1440_k1_20261104T204553Z",
+  "compression": 1440,
+  "chunk_count": 10,
+  "rows": 100000,
+  "elapsed_seconds": 60.196,
+  "frontier": "2025-01-01 23:59:59"
+}

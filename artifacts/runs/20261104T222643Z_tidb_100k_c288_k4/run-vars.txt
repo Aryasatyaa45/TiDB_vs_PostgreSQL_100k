@@ -1,0 +1,8 @@
+run_id=20261104T222643Z
+engine=tidb_htap_pinned
+database=htap_experiment
+target=pilot100k_tidb_c288_k4_20261104T222643Z
+input_rows=100000
+compression=1:288
+concurrency=4
+protocol=overlap_replay_query

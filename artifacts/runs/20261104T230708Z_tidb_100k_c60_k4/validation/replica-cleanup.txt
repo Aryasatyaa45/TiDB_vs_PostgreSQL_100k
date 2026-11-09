@@ -1,0 +1,2 @@
+target=pilot100k_tidb_c60_k4_20261104T230708Z
+replica_cleanup=completed
